@@ -7,8 +7,6 @@ This is a Maven project that implements a Page Object Model design pattern using
 
 Extent Reports and TestNg have been used to generate the test report.</b>
 
-Please Note- This project can be integrated to Jenkins CI pipeline by creating Jenkins Maven Project and adding the github url of this project.
-
 ## Table of Contents
 * [Functionality-Covered Test Cases](#functionality)
 * [Technologies Used](#Technologies-Used)
@@ -64,16 +62,6 @@ In Page Object Model, consider each web page of an application as a class file. 
 * Extent Reports has been used for reporting and reports are available after every run at following Path- /MiroAssignment/test-output/Extent.html. Report can be opened in any Web Browser to see detailed results of each run.
 * IRetryAnalyzer and IAnnotationTransformer interface have been used to implement retry logic for failed test cases. Currently retry count is set to 1.
 
-# Jenkins CI
-This Maven Github Project can be integrated to Jenkins CI by using following steps-
-1. Install Jenkins on your local server.
-2. Run Jenkins server and install follwing plugins- Maven plugins, Git Plugins, TestNg Plugins etc.
-3. Create a Maven Type project item from jenkins dashboard, And give the correct github URL of this project in the project configurations and also specify the Maven build goal as clean install
-4. Run the Build.
-5. Observe the Build result.
-
-*Note- Since, Jenkins can be installed on local server only, Hence it is not possible to show the jenkins integration as part of this POC. *
-
 ### Why TestNg with Selenium for framework?
 		1) Easy Maintainability and Reusability
 		2) Annotations are easy to understand in TestNg
@@ -84,6 +72,17 @@ This Maven Github Project can be integrated to Jenkins CI by using following ste
 		5) Selenium and Testng both are Opensource tools with huge support Online.
     
    Alternatives options available in the market for frontend automation: Cucumber with Selenium, Protractor with Jasmin, WebdriverIO, SerenityJs, Cypress etc.
+   
+# Jenkins CI
+This Maven Github Project can be integrated to Jenkins CI by using following steps-
+1. Install Jenkins on your local server.
+2. Run Jenkins server and install follwing plugins- Maven plugins, Git Plugins, TestNg Plugins etc.
+3. Create a Maven Type project item from jenkins dashboard, And give the correct github URL of this project in the project configurations and also specify the Maven build goal as clean install
+4. Run the Build.
+5. Observe the Build result.
+
+*Note- Since, Jenkins can be installed on local server or dedicated server, Hence it is not possible to show the jenkins integration as part of this POC. *
+
    
 ## How to Run the tests
 
