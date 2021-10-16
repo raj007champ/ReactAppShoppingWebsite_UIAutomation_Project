@@ -13,12 +13,12 @@ Extent Reports and TestNg have been used to generate the test report.</b>
 * [Page Object Model](#page-object-model)
 * [Test Framework](#Test-Framework)
 * [How to Run the tests](#How-to-Run-the-tests)
-    * [Pre-requisite](https://github.com/raj007champ/Miro-QA-Assignment/blob/main/README.md#pre-requisite)
-    * [Using Maven](https://github.com/raj007champ/Miro-QA-Assignment/blob/main/README.md#1-using-maven)
-    * [Using IDE](https://github.com/raj007champ/Miro-QA-Assignment/blob/main/README.md#2-using-ide)   
-    * [Test Result, Report and Failure Screenshots](https://github.com/raj007champ/Miro-QA-Assignment/blob/main/README.md#3-test-result-report-and-failure-screenshots)
-    * [Retry Logic of Failed test cases](https://github.com/raj007champ/Miro-QA-Assignment/blob/main/README.md#4-retry-logic-of-failed-test-cases-)
-    * [Sample report look like this](https://github.com/raj007champ/Miro-QA-Assignment/blob/main/README.md#5-sample-report-look-like-this)
+    * [Pre-requisite](https://github.com/raj007champ/ReactAppShoppingWebsite_UIAutomation_Project#pre-requisite)
+    * [Using Maven](https://github.com/raj007champ/ReactAppShoppingWebsite_UIAutomation_Project#1-using-maven)
+    * [Using IDE](https://github.com/raj007champ/ReactAppShoppingWebsite_UIAutomation_Project#2-using-ide)   
+    * [Test Result, Report and Failure Screenshots](https://github.com/raj007champ/ReactAppShoppingWebsite_UIAutomation_Project#3-test-result-report-and-failure-screenshots)
+    * [Retry Logic of Failed test cases](https://github.com/raj007champ/ReactAppShoppingWebsite_UIAutomation_Project#4-retry-logic-of-failed-test-cases-)
+    * [Sample report look like this](https://github.com/raj007champ/ReactAppShoppingWebsite_UIAutomation_Project#5-after-executing-the-test-cases-using-maven-or-using-testng-suite-file-sample-extent-report-looks-like-this)
 
 # Functionality
 <b>The following test cases of Shopping website has been automated:</b>
