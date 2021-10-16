@@ -81,7 +81,7 @@ This Maven Github Project can be integrated to Jenkins CI by using following ste
 4. Run the Build.
 5. Observe the Build result.
 
-*Note- Since, Jenkins can be installed on local server or dedicated server, Hence it is not possible to show the jenkins integration as part of this POC. *
+*Note- Since, Jenkins can be only installed on local server or dedicated paid hosting server, Hence it is not possible to show the jenkins integration as part of this POC. *
 
    
 ## How to Run the tests
