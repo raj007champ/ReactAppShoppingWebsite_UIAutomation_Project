@@ -7,6 +7,8 @@ This is a Maven project that implements a Page Object Model design pattern using
 
 Extent Reports and TestNg have been used to generate the test report.</b>
 
+Please Note- This project can be integrated to Jenkins CI pipeline by creating Jenkins Maven Project and adding the github url of this project.
+
 ## Table of Contents
 * [Functionality-Covered Test Cases](#functionality)
 * [Technologies Used](#Technologies-Used)
