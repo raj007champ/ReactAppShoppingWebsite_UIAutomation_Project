@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method" class="navigator-link">
+              <span class="suite-name border-failed">Sanity Suite to run single test cases with test name in method</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method" class="navigator-link ">
+                    <span>C:\ShishuRaj\Ocj\Work\personal\Interview\Ziegert\Ziegert-EverEstate-QA-Assignment\SanitySuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 3 failed,  1 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method" class="hide-methods failed suite-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method"> (hide)</a> <!-- hide-methods failed suite-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method -->
+                      <a href="#" panel-name="suite-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method" class="show-methods failed suite-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method"> (show)</a> <!-- show-methods failed suite-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method -->
+                    </span>
+                    <div class="method-list-content failed suite-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method" title="com.ziegertEverEstate.qa.tests.ProductPageTests" class="method navigator-link" hash-for-method="verify_user_is_able_to_remove_product_from_cart(Wine Skul T-Shirt, 1, $ 13.25)">verify_user_is_able_to_remove_product_from_cart(Wine Skul T-Shirt, 1, $ 13.25)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method" title="com.ziegertEverEstate.qa.tests.ProductPageTests" class="method navigator-link" hash-for-method="verify_user_is_able_to_remove_product_from_cart(White DGK Script Tee, 2, $ 29.80)">verify_user_is_able_to_remove_product_from_cart(White DGK Script Tee, 2, $ 29.80)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method" title="com.ziegertEverEstate.qa.tests.ProductPageTests" class="method navigator-link" hash-for-method="verify_user_is_able_to_remove_product_from_cart(White DGK Script Tee, 2, $ 29.80)">verify_user_is_able_to_remove_product_from_cart(White DGK Script Tee, 2, $ 29.80)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method" class="hide-methods skipped suite-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method"> (hide)</a> <!-- hide-methods skipped suite-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method -->
+                      <a href="#" panel-name="suite-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method" class="show-methods skipped suite-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method"> (show)</a> <!-- show-methods skipped suite-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method -->
+                    </span>
+                    <div class="method-list-content skipped suite-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method" title="com.ziegertEverEstate.qa.tests.ProductPageTests" class="method navigator-link" hash-for-method="verify_user_is_able_to_remove_product_from_cart(Wine Skul T-Shirt, 1, $ 13.25)">verify_user_is_able_to_remove_product_from_cart(Wine Skul T-Shirt, 1, $ 13.25)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method" class="panel Sanity_Suite_to_run_single_test_cases_with_test_name_in_method">
+          <div class="suite-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.ziegertEverEstate.qa.tests.ProductPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_user_is_able_to_remove_product_from_cart(Wine Skul T-Shirt, 1, $ 13.25)">
+                  </a> <!-- verify_user_is_able_to_remove_product_from_cart(Wine Skul T-Shirt, 1, $ 13.25) -->
+                  <span class="method-name">verify_user_is_able_to_remove_product_from_cart</span>
+                  <span class="parameters">(Wine Skul T-Shirt, 1, $ 13.25)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [$ 0.01] but found [$ 0.00]
+	at com.ziegertEverEstate.qa.tests.ProductPageTests.verify_user_is_able_to_remove_product_from_cart(ProductPageTests.java:156)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that user is able to remove products from Cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_user_is_able_to_remove_product_from_cart(White DGK Script Tee, 2, $ 29.80)">
+                  </a> <!-- verify_user_is_able_to_remove_product_from_cart(White DGK Script Tee, 2, $ 29.80) -->
+                  <span class="method-name">verify_user_is_able_to_remove_product_from_cart</span>
+                  <span class="parameters">(White DGK Script Tee, 2, $ 29.80)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [$ 0.01] but found [$ 0.00]
+	at com.ziegertEverEstate.qa.tests.ProductPageTests.verify_user_is_able_to_remove_product_from_cart(ProductPageTests.java:156)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that user is able to remove products from Cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_user_is_able_to_remove_product_from_cart(White DGK Script Tee, 2, $ 29.80)">
+                  </a> <!-- verify_user_is_able_to_remove_product_from_cart(White DGK Script Tee, 2, $ 29.80) -->
+                  <span class="method-name">verify_user_is_able_to_remove_product_from_cart</span>
+                  <span class="parameters">(White DGK Script Tee, 2, $ 29.80)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [$ 0.01] but found [$ 0.00]
+	at com.ziegertEverEstate.qa.tests.ProductPageTests.verify_user_is_able_to_remove_product_from_cart(ProductPageTests.java:156)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that user is able to remove products from Cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method-class-failed -->
+          <div class="suite-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.ziegertEverEstate.qa.tests.ProductPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_user_is_able_to_remove_product_from_cart(Wine Skul T-Shirt, 1, $ 13.25)">
+                  </a> <!-- verify_user_is_able_to_remove_product_from_cart(Wine Skul T-Shirt, 1, $ 13.25) -->
+                  <span class="method-name">verify_user_is_able_to_remove_product_from_cart</span>
+                  <span class="parameters">(Wine Skul T-Shirt, 1, $ 13.25)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [$ 0.01] but found [$ 0.00]
+	at com.ziegertEverEstate.qa.tests.ProductPageTests.verify_user_is_able_to_remove_product_from_cart(ProductPageTests.java:156)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that user is able to remove products from Cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method-class-skipped -->
+        </div> <!-- panel Sanity_Suite_to_run_single_test_cases_with_test_name_in_method -->
+        <div panel-name="test-xml-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\ShishuRaj\Ocj\Work\personal\Interview\Ziegert\Ziegert-EverEstate-QA-Assignment\SanitySuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Sanity Suite to run single test cases with test name in method&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.ziegertEverEstate.qa.utill.ExtentReporter&quot;/&gt;
+    &lt;listener class-name=&quot;com.ziegertEverEstate.qa.utill.TestListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.ziegertEverEstate.qa.utill.RetryListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Verify that user is able to remove products from Cart&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ziegertEverEstate.qa.tests.ProductPageTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verify_user_is_able_to_remove_product_from_cart&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ziegertEverEstate.qa.tests.ProductPageTests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify that user is able to remove products from Cart --&gt;
+&lt;/suite&gt; &lt;!-- Sanity Suite to run single test cases with test name in method --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Sanity Suite to run single test cases with test name in method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Verify that user is able to remove products from Cart (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Sanity Suite to run single test cases with test name in method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Sanity Suite to run single test cases with test name in method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Sanity_Suite_to_run_single_test_cases_with_test_name_in_method');
+function tableData_Sanity_Suite_to_run_single_test_cases_with_test_name_in_method() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verify_user_is_able_to_remove_product_from_cart')
+data.setCell(0, 2, 'com.ziegertEverEstate.qa.tests.ProductPageTests')
+data.setCell(0, 3, 928);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verify_user_is_able_to_remove_product_from_cart')
+data.setCell(1, 2, 'com.ziegertEverEstate.qa.tests.ProductPageTests')
+data.setCell(1, 3, 879);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verify_user_is_able_to_remove_product_from_cart')
+data.setCell(2, 2, 'com.ziegertEverEstate.qa.tests.ProductPageTests')
+data.setCell(2, 3, 875);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verify_user_is_able_to_remove_product_from_cart')
+data.setCell(3, 2, 'com.ziegertEverEstate.qa.tests.ProductPageTests')
+data.setCell(3, 3, 866);
+window.suiteTableData['Sanity_Suite_to_run_single_test_cases_with_test_name_in_method']= { tableData: data, tableDiv: 'times-div-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <div id="times-div-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method">
+              </div> <!-- times-div-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Sanity Suite to run single test cases with test name in method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">7 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.ziegertEverEstate.qa.tests.ProductPageTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verify_user_is_able_to_filter_Products_by_size</span>
+                <br/>
+                <span class="ignored-method-name">verify_user_is_able_to_sort_Products_from_highest_to_lowest</span>
+                <br/>
+                <span class="ignored-method-name">verify_user_is_able_to_check_out_products</span>
+                <br/>
+                <span class="ignored-method-name">verify_user_can_see_all_Products</span>
+                <br/>
+                <span class="ignored-method-name">verify_user_is_able_to_sort_Products_from_lowest_to_highest</span>
+                <br/>
+                <span class="ignored-method-name">verify_User_Is_On_LandingPage</span>
+                <br/>
+                <span class="ignored-method-name">verify_user_is_able_to_add_Products_in_cart</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Sanity_Suite_to_run_single_test_cases_with_test_name_in_method" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ziegertEverEstate.qa.tests.ProductPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_user_is_able_to_remove_product_from_cart(Wine Skul T-Shirt, 1, $ 13.25)</span>
+                <span class="method-start">2550 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3427 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">4065 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verify_user_is_able_to_remove_product_from_cart(Wine Skul T-Shirt, 1, $ 13.25)</span>
+                <span class="method-start">5989 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7123 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">7725 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verify_user_is_able_to_remove_product_from_cart(White DGK Script Tee, 2, $ 29.80)</span>
+                <span class="method-start">9680 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10804 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">11444 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verify_user_is_able_to_remove_product_from_cart(White DGK Script Tee, 2, $ 29.80)</span>
+                <span class="method-start">15198 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16401 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

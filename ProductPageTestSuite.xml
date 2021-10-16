@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="methods" thread-count="1">
+<listeners>
+		<listener class-name="com.ziegertEverEstate.qa.utill.ExtentReporter" />
+		<listener class-name="com.ziegertEverEstate.qa.utill.TestListener" />
+		<listener class-name="com.ziegertEverEstate.qa.utill.RetryListener"/>
+	</listeners>
+  
+  <test name="Verify that user is on Demo Shop application Landing Page">
+  <classes>
+			<class name="com.ziegertEverEstate.qa.tests.ProductPageTests">
+				<methods>
+					<include name="verify_User_Is_On_LandingPage"></include>
+				</methods>
+			</class>
+		</classes>
+  </test> 
+  
+  <test name="Verify that user is able to see all 16 products on the page">
+  <classes>
+			<class name="com.ziegertEverEstate.qa.tests.ProductPageTests">
+				<methods>
+					<include name="verify_user_can_see_all_Products"></include>
+				</methods>
+			</class>
+		</classes>
+  </test> 
+  
+  <test name="Verify that user is able filter Products as per the size">
+  <classes>
+			<class name="com.ziegertEverEstate.qa.tests.ProductPageTests">
+				<methods>
+					<include name="verify_user_is_able_to_filter_Products_by_size"></include>
+				</methods>
+			</class>
+		</classes>
+  </test> 
+  
+  <test name="Verify that user is able to sort Product from Lowest To Highest">
+  <classes>
+			<class name="com.ziegertEverEstate.qa.tests.ProductPageTests">
+				<methods>
+					<include name="verify_user_is_able_to_sort_Products_from_lowest_to_highest"></include>
+				</methods>
+			</class>
+		</classes>
+  </test> 
+  
+  <test name="Verify that user is able to sort Product from Highest To Lowest">
+  <classes>
+			<class name="com.ziegertEverEstate.qa.tests.ProductPageTests">
+				<methods>
+					<include name="verify_user_is_able_to_sort_Products_from_highest_to_lowest"></include>
+				</methods>
+			</class>
+		</classes>
+  </test> 
+  
+  <test name="Verify that user is able to add products in Cart as per given Quantity">
+  <classes>
+			<class name="com.ziegertEverEstate.qa.tests.ProductPageTests">
+				<methods>
+					<include name="verify_user_is_able_to_add_Products_in_cart"></include>
+				</methods>
+			</class>
+		</classes>
+  </test> 
+  
+  <test name="Verify that user is able to Check out Products">
+  <classes>
+			<class name="com.ziegertEverEstate.qa.tests.ProductPageTests">
+				<methods>
+					<include name="verify_user_is_able_to_check_out_products"></include>
+				</methods>
+			</class>
+		</classes>
+  </test> 
+  
+  <test name="Verify that user is able to remove products from Cart">
+  <classes>
+			<class name="com.ziegertEverEstate.qa.tests.ProductPageTests">
+				<methods>
+					<include name="verify_user_is_able_to_remove_product_from_cart"></include>
+				</methods>
+			</class>
+		</classes>
+  </test> 
+  
+
+  
+</suite> 

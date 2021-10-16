@@ -1,0 +1,15 @@
+# Maven Project
+target/
+log/
+/target/
+*/target/**
+
+# Eclipse Project
+.classpath
+.project
+
+# Compiled class file
+*.class
+
+#Report
+*/test-output/**

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite
+	name="Sanity Suite to run single test cases with test name in method">
+	<listeners>
+		<listener class-name="com.ziegertEverEstate.qa.utill.ExtentReporter" />
+		<listener class-name="com.ziegertEverEstate.qa.utill.TestListener" />
+		<listener class-name="com.ziegertEverEstate.qa.utill.RetryListener"/>
+	</listeners>
+
+	<test
+		name="Verify that user is able to remove products from Cart">
+		<classes>
+			<class name="com.ziegertEverEstate.qa.tests.ProductPageTests">
+				<methods>
+					<include name="verify_user_is_able_to_sort_Products_from_highest_to_lowest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sanity Suite to run single test cases with test name in method]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.ziegertEverEstate.qa.utill.ExtentReporter"/>
+    <listener class-name="com.ziegertEverEstate.qa.utill.TestListener"/>
+    <listener class-name="com.ziegertEverEstate.qa.utill.RetryListener"/>
+  </listeners>
+  <test name="Verify that user is able to remove products from Cart(failed)">
+    <classes>
+      <class name="com.ziegertEverEstate.qa.tests.ProductPageTests">
+        <methods>
+          <include name="setup"/>
+          <include name="verify_user_is_able_to_remove_product_from_cart" invocation-numbers="0 0 1 1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ziegertEverEstate.qa.tests.ProductPageTests -->
+    </classes>
+  </test> <!-- Verify that user is able to remove products from Cart(failed) -->
+</suite> <!-- Failed suite [Sanity Suite to run single test cases with test name in method] -->

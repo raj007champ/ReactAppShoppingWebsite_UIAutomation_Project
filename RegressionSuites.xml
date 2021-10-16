@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Demo Shopping Cart Regression Suite">
+	<listeners>
+		<listener class-name="com.ziegertEverEstate.qa.utill.ExtentReporter" />
+		<listener class-name="com.ziegertEverEstate.qa.utill.TestListener" />
+		<listener class-name="com.ziegertEverEstate.qa.utill.RetryListener"/>
+	</listeners>
+	<test name="Regression Test Suite to run all test cases">
+		<classes>
+			<class name="com.ziegertEverEstate.qa.tests.ProductPageTests" />
+		</classes>
+	</test>
+</suite> 
