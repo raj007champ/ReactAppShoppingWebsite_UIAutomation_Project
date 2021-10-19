@@ -32,7 +32,7 @@ public class ProductCartTests extends TestBase {
 
 	@BeforeMethod
 	public void setup() {
-		Log.info("Opening the Browser and Navigating to Miro base URL");
+		Log.info("Opening the Browser and Navigating to Base URL");
 		intialisation();
 		Log.endTestCase();
 	}
