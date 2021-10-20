@@ -59,7 +59,7 @@ In Page Object Model, consider each web page of an application as a class file. 
 * TestNG is a testing framework that is inspired by JUnit and NUnit but introducing some new functionalities that make it more powerful and easy to use. All the functional tests are created using TestNg @Test annonations in src/test/java folder.
 * TestNg assertions has been used for all the test validations.
 * Maven is used as build automation and project management tool. Maven is a POM (project object model) based build automation and project management tool written in Java. Maven is widely used for dependency management in Java. It also provides a predefined folder structure to write the code. We can add different plugins and JARs in our project.
-* Extent Reports has been used for reporting and reports are available after every run at following Path- /MiroAssignment/test-output/Extent.html. Report can be opened in any Web Browser to see detailed results of each run.
+* Extent Reports has been used for reporting and reports are available after every run at following Path- /Ziegert-EverEstate/test-output/Extent.html. Report can be opened in any Web Browser to see detailed results of each run.
 * IRetryAnalyzer and IAnnotationTransformer interface have been used to implement retry logic for failed test cases. Currently retry count is set to 1.
 
 ### Why TestNg with Selenium for framework?
@@ -113,12 +113,12 @@ For MacOs- Open the terminal and and Go the path where the pom.xml is placed and
 
 ## 3) Test Result, Report and Failure Screenshots
 - Extent Reports has one of the best reporting and the test reports that are generated every time we execute the tests. 
-- When the project is cloned into Local, test results reporting can be seen if we open **_`index.html`_** from `(/Ziegert-EverEstate/test-output/Extent.html)`.
+- When the project is cloned into Local, test results reporting can be seen if we open **_`Extent.html`_** from `(/Ziegert-EverEstate/test-output/Extent.html)`.
 - Failed testcases Screenshots can be seen if we navigate to following folder `(/Ziegert-EverEstate/FailedTestsScreenshots)`, Screenshot naming convention is the combination of Test Case name + TimeStamp for Eg- **_`testcasename_TimeStamp.png`_** from `(/Ziegert-EverEstate/FailedTestsScreenshots)`.
 
 ## 4) Retry Logic of Failed test cases-
   - IRetryAnalyzer and IAnnotationTransformer interface have been used to implement retry logic for failed test cases. Currently max retry count is set to 1.
-  - Retry count can be increased by editing **_`maxRetryCount`_** variable present in `(/Ziegert-EverEstate/src/main/java/com/miro/qa/utill/Retry.java)` class.
+  - Retry count can be increased by editing **_`maxRetryCount`_** variable present in `(/Ziegert-EverEstate/src/main/java/com/ziegertEverEstate/qa/utill/Retry.java)` class.
 
 ## 5) After executing the test cases using Maven or Using testNg suite file, Sample Extent report looks like this 
    
